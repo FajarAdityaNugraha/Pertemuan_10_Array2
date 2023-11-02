@@ -40,6 +40,8 @@ public class BioskopWithScanner10 {
                     for (int j=0;j<2;j++) {
                         if (penonton[i][j]!=null) {
                             System.out.println(("Baris"+(i+1)+", Kolom")+(j+1)+" : "+penonton[i][j]);
+                        } else {
+                            System.out.println("Baris"+(i+1)+", Kolom"+(j+1)+": ***");
                         }
                     }
                 }
@@ -54,6 +56,7 @@ public class BioskopWithScanner10 {
             next = input10.nextLine();
             if (next.equalsIgnoreCase("n")) {
                 break;
+
             }
         }
     }
